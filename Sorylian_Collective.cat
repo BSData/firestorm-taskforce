@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e2f2-8e74-b3d6-8440" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="571e-4421-c98a-1bda" name="Gunship Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5604-bb27-242e-55d4" name="Ship Class" defaultEntryId="a1a2-a8e0-895f-1f51" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a1a2-a8e0-895f-1f51" name="Harvester Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="8898-c689-4a87-12d9" name="Harvester" points="85.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="d39d-663a-b7d1-d81e" targetId="8bb4-7ee3-03bc-4390" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="6ade-a897-89e1-5bbe" targetId="2235-54a8-7de9-e72d" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="c459-190b-722c-e90c" targetId="480d-1358-9baf-b18a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="899e-4503-f8c9-b223" targetId="0950-cbb5-f4f1-df44" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="130a-fcbd-2205-285d" targetId="12f7-6001-251b-fda1" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="7d80-6e4f-7c51-a0dc" targetId="eb1c-ae89-cc58-1048" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="f0bc-69e0-3dbe-d633" targetId="0073-5db0-50c8-03df" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f88d-c235-23c4-a9a9" name="Light Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="200d-56fe-b0a0-f20f" name="Ship Class" defaultEntryId="b050-8fcf-6250-fe8d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b050-8fcf-6250-fe8d" name="Lucern Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="c247-8009-588d-149c" name="Lucern" points="50.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b050-8fcf-6250-fe8d" incrementChildId="2093-3b9f-d5cd-00a5" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="aca0-92e5-cdfe-2b6b" targetId="5fb3-2040-8670-a6e1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a8b4-d2cd-6089-b08b" targetId="4686-7897-4b9e-06fc" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="db4c-a2e9-f9f4-c926" targetId="8f9e-f715-80c4-fc65" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="4e8d-a3bb-0def-ece9" targetId="460f-069a-23c2-962f" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="fbc5-8f82-327c-9e6d" targetId="12f7-6001-251b-fda1" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="2f97-8dc1-8244-ea1a" targetId="eb1c-ae89-cc58-1048" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="3ab6-4a6d-7e1c-c47b" targetId="0073-5db0-50c8-03df" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="60a9-4109-755a-8e22" targetId="b172-6d9c-9e77-cc7b" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="2093-3b9f-d5cd-00a5" name="Gunship" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="4e73-c429-db37-0430" name="Gunship" defaultEntryId="03b1-07b4-81d4-0ba2" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="03b1-07b4-81d4-0ba2" name="Harvester" points="85.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="8c86-640c-d697-d903" targetId="8bb4-7ee3-03bc-4390" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="d164-0109-c077-d83c" targetId="2235-54a8-7de9-e72d" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="810b-e3a2-4232-4efa" targetId="480d-1358-9baf-b18a" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="fc7e-0fe5-5d4f-6812" targetId="0950-cbb5-f4f1-df44" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="bcb9-86ed-6061-947f" targetId="12f7-6001-251b-fda1" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="35db-9ad8-e5ba-3d07" targetId="eb1c-ae89-cc58-1048" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="9416-48ee-685c-cf90" targetId="0073-5db0-50c8-03df" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9d3b-8e35-168c-ac10" name="Light Frigate Squadron" points="0.0" categoryId="5852-939c-bc78-8de7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6031-38be-f858-5ab4" name="Ship Class" defaultEntryId="f51b-35eb-7f98-60a2" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f51b-35eb-7f98-60a2" name="Flechette Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="a5dd-fc87-9159-a1b9" name="Flechette" points="15.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="8e70-86da-1afa-a2d0" targetId="8a45-249c-9ec7-425f" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="73bd-ac6a-fe2a-747f" targetId="d8a5-b136-6890-bead" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="9f01-31a4-b428-713f" targetId="eb1c-ae89-cc58-1048" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="de26-c2b3-d18c-d16f" targetId="c571-13fc-e023-9ed3" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="0536-076f-3ca6-901c" targetId="b172-6d9c-9e77-cc7b" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="4476-3dc4-0f12-4fa0" name="Sorylian Collective Tactical" hidden="false">
+      <description>
+Fleet Tactics Bonus: +1</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="c571-13fc-e023-9ed3" name="Difficult Target" hidden="false">
+      <description>Attacker suffers -1 on Damage Table rolls.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0073-5db0-50c8-03df" name="Experienced Engineers" hidden="false">
+      <description>On a roll of 4+ in the End Phase, remove one Disorder Marker from a model. You can roll for EACH Disorder Marker a model may have.</description>
+      <modifiers/>
+    </rule>
+    <rule id="12f7-6001-251b-fda1" name="Kinetic" hidden="false">
+      <description>All Shield [RED] Saves made by the enemy against a Weapon with this MAR must use the Heavy Dice Mechanic.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b172-6d9c-9e77-cc7b" name="Pack Hunter" hidden="false">
+      <description>If ALL Firing Solutions from a Squadron target the same modelthe Attacker gains +1 on their Damage Table roll. The target must be a higher Tier Class.</description>
+      <modifiers/>
+    </rule>
+    <rule id="eb1c-ae89-cc58-1048" name="Scatter" hidden="false">
+      <description>The Attacker ignores the effect of the Difficult Target MAR.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="8a45-249c-9ec7-425f" profileTypeId="123e-0b9b-d740-1581" name="Flechette_Light_Frigate" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="12"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="3"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="2"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="1"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+1"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d8a5-b136-6890-bead" profileTypeId="3ec3-9dad-e19b-3539" name="Flechette_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Scatter"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="2"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8bb4-7ee3-03bc-4390" profileTypeId="123e-0b9b-d740-1581" name="Harvester_Gunship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="10"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="7"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="5"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="4"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+4"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="+1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2235-54a8-7de9-e72d" profileTypeId="3ec3-9dad-e19b-3539" name="Harvester_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Kinetic"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="6"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="480d-1358-9baf-b18a" profileTypeId="3ec3-9dad-e19b-3539" name="Harvester_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Scatter"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="7"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="7"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0950-cbb5-f4f1-df44" profileTypeId="3ec3-9dad-e19b-3539" name="Harvester_Weapon_3" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="3"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="4"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5fb3-2040-8670-a6e1" profileTypeId="123e-0b9b-d740-1581" name="Lucern_Light_Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="10"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="5"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="4"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="3"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+2"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4686-7897-4b9e-06fc" profileTypeId="3ec3-9dad-e19b-3539" name="Lucern_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Kinetic"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="5"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8f9e-f715-80c4-fc65" profileTypeId="3ec3-9dad-e19b-3539" name="Lucern_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Scatter"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="5"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="460f-069a-23c2-962f" profileTypeId="3ec3-9dad-e19b-3539" name="Lucern_Weapon_3" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="3"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="4"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

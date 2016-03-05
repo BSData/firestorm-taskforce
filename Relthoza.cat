@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="404d-8754-6ebf-7ffc" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthoza" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="468e-dc95-2f57-0f4d" name="Gunship Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b1f9-acfc-8cae-749a" name="Ship Class" defaultEntryId="c8e5-a415-4fd9-dfda" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c8e5-a415-4fd9-dfda" name="Virulence Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="5aac-046b-fd50-4b37" name="Virulence" points="65.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5b97-203d-267e-b533" targetId="a0c7-e3ab-7d18-2609" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="d601-46ec-e25a-1cc1" targetId="8c1b-1b37-a62d-75a1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="61d4-6384-5507-cb06" targetId="569f-ed63-44d5-7075" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="fb38-0081-5c18-d149" targetId="7853-a566-1c81-9a0c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="6dca-d07c-2933-f4c2" targetId="a24a-6ee0-171f-1236" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="31b7-7435-b154-09ee" targetId="77cd-0d10-e0cf-0853" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="1496-16f8-527a-2be7" targetId="4dfd-1972-54a8-9fe9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="60b4-52ea-44ee-7e19" name="Light Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="fd00-5b05-ba0f-6874" name="Ship Class" defaultEntryId="cda9-c176-161b-7fe6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="cda9-c176-161b-7fe6" name="Iramon Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="824b-f1f9-13ac-f5cd" name="Iramon" points="50.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="cda9-c176-161b-7fe6" incrementChildId="7f31-422e-8499-989b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="1116-d92b-03f3-d771" targetId="b569-e7be-4a43-ba76" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="00c6-e7c3-4e83-5fba" targetId="550a-2acd-9dca-1925" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="7bb4-b604-638e-15f4" targetId="7e0a-e930-7760-71ea" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="5b04-d67b-a7c7-aa7b" targetId="8612-04a4-145e-65dd" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="1344-ba73-4073-e562" targetId="a24a-6ee0-171f-1236" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="cde3-98b3-70f9-edfe" targetId="77cd-0d10-e0cf-0853" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="104a-5a80-8dfb-a8a2" targetId="4dfd-1972-54a8-9fe9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="9928-59a0-16b4-da6e" targetId="a0dc-a5f9-450b-dec3" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="7f31-422e-8499-989b" name="Gunship" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="1b68-ecfc-d32d-03a0" name="Gunship" defaultEntryId="7dec-f4c9-732e-11ed" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="7dec-f4c9-732e-11ed" name="Virulence" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="5508-58e6-54d2-7ffb" targetId="a0c7-e3ab-7d18-2609" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="6277-4f5d-e4fa-d74c" targetId="8c1b-1b37-a62d-75a1" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="8ee3-5130-15ec-466b" targetId="569f-ed63-44d5-7075" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="e2a5-f9c8-e2f6-51a4" targetId="7853-a566-1c81-9a0c" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="b71d-61b9-988c-93e4" targetId="a24a-6ee0-171f-1236" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="453b-54cb-ba6a-d11e" targetId="77cd-0d10-e0cf-0853" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="6464-cb08-9b34-9f4a" targetId="4dfd-1972-54a8-9fe9" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="95ab-7b13-f9fd-999c" name="Light Frigate Squadron" points="0.0" categoryId="5852-939c-bc78-8de7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8bab-b86e-1910-add4" name="Ship Class" defaultEntryId="328c-17d9-b195-b565" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="328c-17d9-b195-b565" name="Erigone Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="15c8-51e4-8457-c860" name="Erigone" points="25.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="869a-db82-89bc-1291" targetId="f4df-8526-5f83-be1e" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="2a2f-dbdc-fc3f-0d88" targetId="e763-394e-715a-410f" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a65e-0d2a-177b-cc22" targetId="f075-e43c-843b-858c" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="5266-ed06-964d-2ae7" targetId="4dfd-1972-54a8-9fe9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="cdae-9579-9f8a-235d" name="Relthoza Tactical" hidden="false">
+      <description>
+Fleet Tactics Bonus: +2</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="a24a-6ee0-171f-1236" name="Bio-Hazard" hidden="false">
+      <description>If a weapon with this MAR causes a Disorder Marker to be added to a model, add an additional Disorder Marker to the same model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4dfd-1972-54a8-9fe9" name="Cloaking Field" hidden="false">
+      <description>All incoming and outgoing Attacks use the Heavy Dice Mechanic until the model de-cloaks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="77cd-0d10-e0cf-0853" name="Corrosive" hidden="false">
+      <description>Should a weapon with this MAR force a roll on the Damage Table, roll a separate D6. On the roll of a 4+, place a Disorder Marker on the Target in addition to all other effects.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f075-e43c-843b-858c" name="Difficult Target" hidden="false">
+      <description>Attacker suffers -1 on Damage Table rolls.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a0dc-a5f9-450b-dec3" name="Minefield" hidden="false">
+      <description>Player with the most Squadrons with this MAR can place Minefields.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="f4df-8526-5f83-be1e" profileTypeId="123e-0b9b-d740-1581" name="Erigone_Light_Frigate" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="12"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="3"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="2"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="1"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+1"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e763-394e-715a-410f" profileTypeId="3ec3-9dad-e19b-3539" name="Erigone_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b569-e7be-4a43-ba76" profileTypeId="123e-0b9b-d740-1581" name="Iramon_Light_Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="9"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="4"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="4"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="6"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+3"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="550a-2acd-9dca-1925" profileTypeId="3ec3-9dad-e19b-3539" name="Iramon_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Corrosive"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7e0a-e930-7760-71ea" profileTypeId="3ec3-9dad-e19b-3539" name="Iramon_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Corrosive"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="3"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8612-04a4-145e-65dd" profileTypeId="3ec3-9dad-e19b-3539" name="Iramon_Weapon_3" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Bio-Hazard"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="4"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a0c7-e3ab-7d18-2609" profileTypeId="123e-0b9b-d740-1581" name="Virulence_Gunship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="7"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="7"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="6"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="6"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+5"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8c1b-1b37-a62d-75a1" profileTypeId="3ec3-9dad-e19b-3539" name="Virulence_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Corrosive"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="6"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="7"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="569f-ed63-44d5-7075" profileTypeId="3ec3-9dad-e19b-3539" name="Virulence_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Corrosive"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="5"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="6"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7853-a566-1c81-9a0c" profileTypeId="3ec3-9dad-e19b-3539" name="Virulence_Weapon_3" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Bio-Hazard"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="5"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="5"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

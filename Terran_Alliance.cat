@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="50a5-9322-b5ab-9b5d" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Terran Alliance" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="8da2-9e46-a31f-24df" name="Light Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8d54-1657-4d6c-7339" name="Ship Class" defaultEntryId="c956-fc4d-fe2d-fb3a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c956-fc4d-fe2d-fb3a" name="Perseus Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="e4e1-a511-de16-3f8b" name="Perseus" points="55.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="c956-fc4d-fe2d-fb3a" incrementChildId="2dfc-f14d-3b90-2a3d" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="fa10-092d-ec59-8c3f" targetId="431c-2f12-36ee-6971" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="d590-c85e-3599-ae53" targetId="2375-3b67-8605-9762" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a4bf-3453-381e-6d83" targetId="8103-b132-d73b-8ffe" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="fb01-c997-ab09-ba2b" targetId="53df-5cea-1f23-3fd9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="fe2f-d3d1-14d1-91bf" targetId="34fe-8296-6a6a-8421" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="2dfc-f14d-3b90-2a3d" name="Torpedo Cruiser" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="a8df-e6ca-69d8-6491" name="Torpedo Cruiser" defaultEntryId="b6ed-7ac0-9b50-d7df" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="b6ed-7ac0-9b50-d7df" name="Harpoon" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="1baa-f96b-49a6-0399" targetId="eca5-ad62-af00-4deb" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="b039-da47-aae8-7d60" targetId="1e3a-8aae-9e3f-4c96" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="6558-f00f-6d84-591d" targetId="53df-5cea-1f23-3fd9" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="99bc-81c8-8e16-7b9d" targetId="34fe-8296-6a6a-8421" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="43fa-1e04-6d94-0a59" targetId="d277-9d34-8c86-dcb8" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a821-bf8c-a99f-593e" name="Light Frigate Squadron" points="0.0" categoryId="5852-939c-bc78-8de7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7167-3047-37dd-0fe0" name="Ship Class" defaultEntryId="8fac-1486-b2dc-cee0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8fac-1486-b2dc-cee0" name="Wayfarer Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="091b-434b-0e26-0fa2" name="Wayfarer" points="20.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="fc61-a2aa-3277-3aee" targetId="87bb-8ab7-1c15-05aa" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="1a38-672d-9aeb-55d2" targetId="7303-8fba-9c99-82ea" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="759d-e44c-7218-6a4b" targetId="7a6f-8e41-50a1-48a0" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="a98f-464c-2d28-0f7f" targetId="34fe-8296-6a6a-8421" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5d80-e09a-4ee6-19bc" name="Torpedo Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="51bb-ff26-6e1c-b263" name="Ship Class" defaultEntryId="5e19-52c6-d565-cadc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5e19-52c6-d565-cadc" name="Harpoon Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="1e9f-eb2c-7a5d-0dc3" name="Harpoon" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="19c8-3c15-ccf1-31b6" targetId="eca5-ad62-af00-4deb" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="7916-fd71-f1d8-a52a" targetId="1e3a-8aae-9e3f-4c96" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="eb88-ed6d-b46d-d8c0" targetId="53df-5cea-1f23-3fd9" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="ebd2-fa0e-7023-2c87" targetId="34fe-8296-6a6a-8421" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="cfd0-46ba-a2db-ce3a" targetId="d277-9d34-8c86-dcb8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="b56e-8247-84f1-f26b" targetId="dbc7-fb3c-9b01-0272" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="3847-6d02-d208-9366" name="Terran Alliance Tactical" hidden="false">
+      <description>
+Fleet Tactics Bonus: +2</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="53df-5cea-1f23-3fd9" name="Beam Weapon" hidden="false">
+      <description>Attacker can force the Defender to re-roll their die on the Damage Table.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d277-9d34-8c86-dcb8" name="Cyclic Shielding" hidden="false">
+      <description>This model uses its Shields [RED] to defend against all forms of Weapon Attacks (including Torpedoes) but uses the Heavy Dice Mechanic to do so.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a6f-8e41-50a1-48a0" name="Difficult Target" hidden="false">
+      <description>Attacker suffers -1 on Damage Table rolls.</description>
+      <modifiers/>
+    </rule>
+    <rule id="34fe-8296-6a6a-8421" name="Nuclear" hidden="false">
+      <description>If a Weapon with this MAR destroys an enemy target, on a roll of 4+ ALL models within 4” gain a Disorder Marker.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="eca5-ad62-af00-4deb" profileTypeId="123e-0b9b-d740-1581" name="Harpoon_Torpedo_Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="7"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="5"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="5"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="4"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+3"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="+3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1e3a-8aae-9e3f-4c96" profileTypeId="3ec3-9dad-e19b-3539" name="Harpoon_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Laser_Batteries"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="360"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Beam"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="dbc7-fb3c-9b01-0272" profileTypeId="3ec3-9dad-e19b-3539" name="Harpoon_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="360"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Nuclear"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="6"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="7"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="8"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="431c-2f12-36ee-6971" profileTypeId="123e-0b9b-d740-1581" name="Perseus_Light_Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="8"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="5"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="4"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="3"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+2"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="+2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2375-3b67-8605-9762" profileTypeId="3ec3-9dad-e19b-3539" name="Perseus_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Laser_Batteries"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="360"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Beam"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="7"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8103-b132-d73b-8ffe" profileTypeId="3ec3-9dad-e19b-3539" name="Perseus_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="360"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Nuclear"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="3"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="4"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="5"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7303-8fba-9c99-82ea" profileTypeId="123e-0b9b-d740-1581" name="Wayfarer_Light_Frigate" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="13"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="4"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="2"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="1"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+2"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="+1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="87bb-8ab7-1c15-05aa" profileTypeId="3ec3-9dad-e19b-3539" name="Wayfarer_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="360"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Nuclear"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="2"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

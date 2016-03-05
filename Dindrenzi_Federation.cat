@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f3df-7925-2d4b-dabd" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="1cdb-883c-d720-f038" name="Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="c10e-cefa-7692-6ba8" name="Ship Class" defaultEntryId="beb6-9a86-da2f-66a6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="beb6-9a86-da2f-66a6" name="Velites Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="343e-2768-0fc2-0329" name="Velites" points="65.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="beb6-9a86-da2f-66a6" incrementChildId="ce8d-e5c5-8ca0-9921" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="3d23-b66f-a70c-3eec" targetId="c1b8-4aa1-f1db-c676" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="290b-baca-0e2e-b4e7" targetId="c346-f281-d4d0-f6ce" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="4074-8c87-2de2-5dda" targetId="ee9d-eb20-ce31-42d6" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="96d7-9d68-275b-1a34" targetId="e79c-6358-f727-2298" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="6e99-050c-5382-d751" targetId="594f-d99f-0a18-2d77" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="051a-d14a-9bdc-cb3b" targetId="64d8-8629-2f6f-b130" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="01bc-58ac-fece-99c6" targetId="677a-0143-6a89-c31a" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="ce8d-e5c5-8ca0-9921" name="Escort Carrier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="db86-c94d-aa4f-7227" name="Escort Carrier" defaultEntryId="5a70-6f15-ea42-60a4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="5a70-6f15-ea42-60a4" name="Decurion" points="90.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links>
+                            <link id="85ea-1771-c302-15e6" targetId="f3f9-0438-0908-7be2" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="5745-c996-9b69-0390" targetId="d825-f08a-8edf-5b5b" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="c2b2-612a-885f-840e" targetId="4596-71fb-94ae-9558" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="835d-a408-9200-0946" targetId="7b8f-6a80-da9a-9a5d" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="080b-1c3f-ccc9-50ae" targetId="ec3c-6ebe-ff7e-549e" linkType="profile">
+                              <modifiers/>
+                            </link>
+                            <link id="e40a-6aee-9c0e-5b0a" targetId="677a-0143-6a89-c31a" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="e9f9-4e37-1e5a-a43e" targetId="a280-d152-16dd-05a6" linkType="rule">
+                              <modifiers/>
+                            </link>
+                            <link id="9bc8-f34c-0991-9a3b" targetId="64d8-8629-2f6f-b130" linkType="rule">
+                              <modifiers/>
+                            </link>
+                          </links>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e62c-45b9-9bb7-1ada" name="Escort Carrier Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a815-89ee-b5fe-fdf5" name="Ship Class" defaultEntryId="2e5b-4189-4d00-b02f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2e5b-4189-4d00-b02f" name="Decurion Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="8139-d204-3246-c7fc" name="Decurion" points="90.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="eb47-1a86-cf03-3778" targetId="f3f9-0438-0908-7be2" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a075-e082-0346-b9c6" targetId="d825-f08a-8edf-5b5b" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="9af1-fcfd-bb99-8e17" targetId="4596-71fb-94ae-9558" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="6353-d2a9-0cdc-5403" targetId="7b8f-6a80-da9a-9a5d" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="49ff-e2ce-ae65-66db" targetId="ec3c-6ebe-ff7e-549e" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="c55d-3e73-a7ee-be79" targetId="677a-0143-6a89-c31a" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="70ab-a634-9ad4-7282" targetId="a280-d152-16dd-05a6" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="5ab6-0696-87b3-7309" targetId="64d8-8629-2f6f-b130" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="25ff-971f-a816-dc3c" name="Light Frigate Squadron" points="0.0" categoryId="5852-939c-bc78-8de7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="21ba-1e7a-3092-21bb" name="Ship Class" defaultEntryId="e7be-ca83-e6b7-3d8b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e7be-ca83-e6b7-3d8b" name="Pugio Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries>
+                <entry id="3996-76f5-032a-186b" name="Pugio" points="25.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9e39-b5e7-a553-5bca" targetId="c497-5e6e-715e-c234" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="ac67-8202-9a6b-392a" targetId="c2bb-18a9-a1fb-54ae" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="a758-32a0-b129-6e06" targetId="dc7f-535a-46f2-38cb" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="36e0-eea3-6b37-627a" name="Dindrenzi Federation Tactical" hidden="false">
+      <description>
+Fleet Tactics Bonus: +3</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="dc7f-535a-46f2-38cb" name="Difficult Target" hidden="false">
+      <description>Attacker suffers -1 on Damage Table rolls.</description>
+      <modifiers/>
+    </rule>
+    <rule id="594f-d99f-0a18-2d77" name="High Energy" hidden="false">
+      <description>The Attacker may elect to re-roll their result on the Damage Table, the second result MUST be taken.</description>
+      <modifiers/>
+    </rule>
+    <rule id="64d8-8629-2f6f-b130" name="Kinetic" hidden="false">
+      <description>All Shield [RED] Saves made by the enemy against a Weapon with this MAR must use the Heavy Dice Mechanic.</description>
+      <modifiers/>
+    </rule>
+    <rule id="677a-0143-6a89-c31a" name="Minefield" hidden="false">
+      <description>Player with the most Squadrons with this MAR can place Minefields.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a280-d152-16dd-05a6" name="Special Forces" hidden="false">
+      <description>Attacker gains +1 on their Damage Table roll when performing a Boarding Assault.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="f3f9-0438-0908-7be2" profileTypeId="123e-0b9b-d740-1581" name="Decurion_Escort_Carrier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="8"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="8"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="5"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="5"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+4"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7b8f-6a80-da9a-9a5d" profileTypeId="4a56-5816-91db-868f" name="Decurion_SRS_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d9ad-55e5-73cb-032e" name="Classification" value="Bombers"/>
+        <characteristic characteristicId="e1b7-18eb-20a5-e154" name="Number" value="x1"/>
+        <characteristic characteristicId="4229-4b2b-3365-4548" name="MAR" value="-"/>
+        <characteristic characteristicId="7de4-cc82-cbce-b325" name="PB" value="5"/>
+        <characteristic characteristicId="ec92-b54d-d7de-5b3e" name="EF" value="5"/>
+        <characteristic characteristicId="cf41-ea87-ef12-34ed" name="LR" value="-"/>
+        <characteristic characteristicId="627a-36a6-6760-5c22" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ec3c-6ebe-ff7e-549e" profileTypeId="4a56-5816-91db-868f" name="Decurion_SRS_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d9ad-55e5-73cb-032e" name="Classification" value="Interceptors"/>
+        <characteristic characteristicId="e1b7-18eb-20a5-e154" name="Number" value="x1"/>
+        <characteristic characteristicId="4229-4b2b-3365-4548" name="MAR" value="-"/>
+        <characteristic characteristicId="7de4-cc82-cbce-b325" name="PB" value="+6PD"/>
+        <characteristic characteristicId="ec92-b54d-d7de-5b3e" name="EF" value="+6PD"/>
+        <characteristic characteristicId="cf41-ea87-ef12-34ed" name="LR" value="-"/>
+        <characteristic characteristicId="627a-36a6-6760-5c22" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d825-f08a-8edf-5b5b" profileTypeId="3ec3-9dad-e19b-3539" name="Decurion_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Rail_Gun"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="Kinetic"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="2"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="6"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="2"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4596-71fb-94ae-9558" profileTypeId="3ec3-9dad-e19b-3539" name="Decurion_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="7"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c497-5e6e-715e-c234" profileTypeId="123e-0b9b-d740-1581" name="Pugio_Light_Frigate" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="12"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="5"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="2"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="2"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+2"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c2bb-18a9-a1fb-54ae" profileTypeId="3ec3-9dad-e19b-3539" name="Pugio_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c1b8-4aa1-f1db-c676" profileTypeId="123e-0b9b-d740-1581" name="Velites_Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="27fe-7565-14c8-fd4d" name="M&quot;" value="9"/>
+        <characteristic characteristicId="da32-5ba0-db70-78fc" name="DR" value="7"/>
+        <characteristic characteristicId="5465-1950-dcec-0923" name="HP" value="4"/>
+        <characteristic characteristicId="67fa-7a48-2711-2b76" name="CP" value="4"/>
+        <characteristic characteristicId="427a-c855-3d1c-6a9e" name="PD" value="+3"/>
+        <characteristic characteristicId="8a5c-b53b-a8b4-e8db" name="SH" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c346-f281-d4d0-f6ce" profileTypeId="3ec3-9dad-e19b-3539" name="Velites_Weapon_1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Rail_Gun"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="High_Energy/Kinetic"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="3"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="7"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="3"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ee9d-eb20-ce31-42d6" profileTypeId="3ec3-9dad-e19b-3539" name="Velites_Weapon_2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Gunnery"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="P+S"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="4"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="3"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="RED"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e79c-6358-f727-2298" profileTypeId="3ec3-9dad-e19b-3539" name="Velites_Weapon_3" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f151-a3a4-39a3-8c18" name="Classification" value="Torpedos"/>
+        <characteristic characteristicId="0be2-72a3-63b6-3cd9" name="Arc" value="F"/>
+        <characteristic characteristicId="dd2d-4538-b8b0-391e" name="MAR" value="-"/>
+        <characteristic characteristicId="70a7-2cbf-ebd8-8c41" name="PB" value="5"/>
+        <characteristic characteristicId="1d73-2b38-0199-411e" name="EF" value="5"/>
+        <characteristic characteristicId="3365-b0b9-da67-6fc2" name="LR" value="-"/>
+        <characteristic characteristicId="4be7-a898-6577-8557" name="Type" value="BLUE"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
