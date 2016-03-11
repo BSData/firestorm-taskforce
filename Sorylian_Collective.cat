@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e2f2-8e74-b3d6-8440" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e2f2-8e74-b3d6-8440" revision="2" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Sorylian Collective" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="571e-4421-c98a-1bda" name="Gunship Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -63,12 +63,18 @@
           <entries>
             <entry id="b050-8fcf-6250-fe8d" name="Lucern Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="c247-8009-588d-149c" name="Lucern" points="50.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="c247-8009-588d-149c" name="Lucern" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
                     <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b050-8fcf-6250-fe8d" incrementChildId="2093-3b9f-d5cd-00a5" incrementField="selections" incrementValue="1.0">
                       <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="b050-8fcf-6250-fe8d" childId="2093-3b9f-d5cd-00a5" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>

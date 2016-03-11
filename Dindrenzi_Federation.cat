@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f3df-7925-2d4b-dabd" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f3df-7925-2d4b-dabd" revision="2" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="1cdb-883c-d720-f038" name="Cruiser Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -8,12 +8,18 @@
           <entries>
             <entry id="beb6-9a86-da2f-66a6" name="Velites Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="343e-2768-0fc2-0329" name="Velites" points="65.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="343e-2768-0fc2-0329" name="Velites" points="65.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
                     <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="beb6-9a86-da2f-66a6" incrementChildId="ce8d-e5c5-8ca0-9921" incrementField="selections" incrementValue="1.0">
                       <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="beb6-9a86-da2f-66a6" childId="ce8d-e5c5-8ca0-9921" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>

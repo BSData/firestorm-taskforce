@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="404d-8754-6ebf-7ffc" revision="1" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthoza" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="404d-8754-6ebf-7ffc" revision="2" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Relthoza" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="468e-dc95-2f57-0f4d" name="Gunship Squadron" points="0.0" categoryId="a234-8cc8-06f7-984f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -63,12 +63,18 @@
           <entries>
             <entry id="cda9-c176-161b-7fe6" name="Iramon Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="824b-f1f9-13ac-f5cd" name="Iramon" points="50.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="824b-f1f9-13ac-f5cd" name="Iramon" points="50.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
                     <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="cda9-c176-161b-7fe6" incrementChildId="7f31-422e-8499-989b" incrementField="selections" incrementValue="1.0">
                       <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="cda9-c176-161b-7fe6" childId="7f31-422e-8499-989b" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
