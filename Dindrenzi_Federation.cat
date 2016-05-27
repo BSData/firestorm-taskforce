@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f3df-7925-2d4b-dabd" revision="3" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f3df-7925-2d4b-dabd" revision="4" gameSystemId="befb-fff3-96a1-4ec1" gameSystemRevision="1" battleScribeVersion="1.15" name="Dindrenzi Federation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="7058-6e67-f1d7-c53f" name="Battleship" points="0.0" categoryId="b7f2-3aae-9005-2cb0" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -36,12 +36,18 @@
           <entries>
             <entry id="beb6-9a86-da2f-66a6" name="Velites Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="343e-2768-0fc2-0329" name="Velites" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="343e-2768-0fc2-0329" name="Velites" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
                     <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="beb6-9a86-da2f-66a6" incrementChildId="7d22-06dd-f2bb-3737" incrementField="selections" incrementValue="1.0">
                       <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="0.0">
+                      <conditions>
+                        <condition parentId="beb6-9a86-da2f-66a6" childId="7d22-06dd-f2bb-3737" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -66,12 +72,18 @@
             </entry>
             <entry id="7318-516e-5dfc-ddbc" name="Fury Class" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries>
-                <entry id="fea2-b2b1-b74a-0e55" name="Fury" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                <entry id="fea2-b2b1-b74a-0e55" name="Fury" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
                     <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="7318-516e-5dfc-ddbc" incrementChildId="564b-15d9-22ed-5444" incrementField="selections" incrementValue="1.0">
                       <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="0.0">
+                      <conditions>
+                        <condition parentId="7318-516e-5dfc-ddbc" childId="564b-15d9-22ed-5444" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
